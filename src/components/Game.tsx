@@ -244,7 +244,7 @@ return (
 		</div>
 		</>
 		:
-		<div className="bg-gray-100 rounded-2xl p-2 m-2 flex-col justify-center md:items-center" style={{ height: DISPLAY_HEIGHT, width: DISPLAY_WIDTH }}>
+		<div className="bg-gray-100 rounded-2xl p-2 m-2 flex-col justify-center text-center md:items-center" style={{ height: DISPLAY_HEIGHT, width: DISPLAY_WIDTH }}>
 		<p className="text-xl mt-12">ゲームオーバー</p>
 		<p className="text-lg ml-8">あなたが青春を過ごした時間：{timeRef.current}時間</p>
 		<button className="bg-black text-white border-0 p-2 rounded-md hover:bg-gray-400 hover:text-gray" onClick={() => shareOnTwitter(timeRef.current)}><span>Xでスコアを共有</span></button>

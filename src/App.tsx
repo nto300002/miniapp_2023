@@ -9,8 +9,8 @@ import { Header } from './components/layouts/Header';
 function App() {
   return (
       <Router>
-      <div className="App">
-        <Header />
+      <Header />
+      <div className="flex justify-center items-center h-[desired-height]">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/game" element={<Game />} />
