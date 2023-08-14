@@ -15,7 +15,7 @@ y: number;  //Y軸座標
 
 export const Game = memo(() => {
 		function shareOnTwitter(score) {
-		const tweetText = `私の青春を過ごした時間は${score}時間です！https://miniapp_seisyun3d.vercel.app/
+		const tweetText = `私の青春を過ごした時間は${score}時間です！https://seisyun3d.vercel.app/
  #ミニアプリweek #青春アプリ`;
 		const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
 		window.open(url, '_blank');
